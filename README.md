@@ -30,6 +30,15 @@ Clone this repository and run `npm install && gulp test`
 Comment out out the section piping into `gulp-cheerio`:
 
 ``` js 
+/*
+    .pipe(cheerio(function($, file) {
+      $('.Test-markup > code').each(function() {
+        var markup = $(this).html();
+        //Insert the Test-render block after the Test-then block
+        //Append the markup block to the Test-render block
+        $($(this).parent().next()).after(renderTestBlock).next().append(markup);
+      });
+    }))*/
 
 ```
 
