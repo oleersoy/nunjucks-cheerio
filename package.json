@@ -1,0 +1,24 @@
+{
+  "name": "nunjucks-cheerio",
+  "version": "1.0.0",
+  "description": "Test of gulp-nunjucks-render and gulp-cheerio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleersoy/nunjucks-cheerio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleersoy/nunjucks-cheerio/issues"
+  },
+  "homepage": "https://github.com/oleersoy/nunjucks-cheerio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-nunjucks-render": "^2.0.0"
+  }
+}
